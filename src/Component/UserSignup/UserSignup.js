@@ -34,7 +34,7 @@ const UserSignup = () => {
   const PostData = async (e) => {
     e.preventDefault();
     const { name, email, phone, password, confirmPassword } = input;
-    const res = await fetch("http://localhost:5000/api/register", {
+    const res = await fetch("http://localhost:3000/api/register", {
       method: "POST",
       mode: "cors",
       cache: "no-cache",
