@@ -9,19 +9,7 @@ import { BsFillPersonFill } from "react-icons/bs";
 const url = "https://jsonplaceholder.typicode.com/photos";
 
 const Header = () => {
-  //   const [data, setData] = useState([])
-
-  // const fetchdata = async ()=>{
-  //   const responce = await axios(url)
-  //   const data = responce.data
-  //   setData(data)
-  //   console.log(data)
-  // }
-  // useEffect(()=>{
-  //   fetchdata()
-  // },[])
-
-  // for humburger icon
+ 
   const [cross, setCross] = useState(false);
   const [open, setOpen] = useState(false)
 
